@@ -9,11 +9,11 @@
 
 The goal of this project is to help the retailer understand the properties of products and outlets that play an important roles in increasing sales.
 
-### Data
+### Data dictionary
 [Original source](https:/https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
+
 There are 8 523 rows and 12 columns in the dataset.
 
-### Data dictionary
 <img width="383" alt="dd_sales_predictions" src="https://github.com/shabana1408/Prediction-of-Product-Sales/assets/138613948/be96d30d-b6cf-4b35-a5b7-14cf42716e8c">
 
 ### Methods
@@ -41,7 +41,7 @@ Individual features in the dataset were considered to understand their distribut
 
 The final Machine Learning model chosen is a tuned Random Forest Regressor Model. Based on the testing dataset, the model can accurately explain 60% of the variability in the data, i.e. our models prediction matches the actual outcomes 60% of the time.
 
-Using another measure, the Root Mean Squared Error (RMSE), we can say that on average the model's predictions differ from actual outcomes by $1 057 units.
+Using another measure, the Root Mean Squared Error (RMSE), we can say that on average the model's predictions differ from actual outcomes by $1 057.
 
 ## Limitations & Next Steps
 
