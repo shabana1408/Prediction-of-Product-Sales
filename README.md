@@ -1,57 +1,50 @@
 # Prediction of Product Sales
-## Sales prediction for food items sold at various stores.
+## Sales prediction for food items sold at various stores
 
 **Author**: Shabana Patel 
 
 ### Business problem
 
-The goal of this project is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
+The goal of this project is to help the retailer understand the properties of products and outlets that play an important roles in increasing sales.
 
 ### Data
 [Original source](https:/https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
-There are 8 523 rows and 12 columns.
+There are 8 523 rows and 12 columns in the dataset.
 
 ### Data dictionary
 
-## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+### Methods
+To prepare this data, the data was cleaned, duplicate entries were removed and the following processes were performed:
+
+## Exploratory Data Analysis
+EDA is performed to understand the main characteristics, patterns and relationships within a datset. 
+
+## Feature by feature inspection
+Individual features in the dataset were considered to understand their distributions, patterns and significance in relation to the target variable. 
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
+#### Outlet sales by outlet size
 
-An overview of the project
-2 relevant insights from the data (supported with reporting quality visualizations)
-Summary of the model and its evaluation metrics
-Final recommendations
 
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
+> Medium sized outlets seems to generate higher sales in comparison to other oulets of other sizes.
 
-> Sentence about visualization.
+#### Outlet sales by outlet type
 
-#### Visual 2 Title
+> Supermarket Type 3 outlet types seem to generate higher sales in comparison to other outlet types.
 
 ## Model
 
-Describe your final model
+The final Machine Learning model chosen is a tuned Random Forest Regressor Model. Based on the testing dataset, the model can accurately explain 60% of the variability in the data, i.e. our models prediction matches the actual outcomes 60% of the time.
 
-Report the most important metrics
-
-Refer to the metrics to describe how well the model would solve the business problem
-
-## Recommendations:
-
-More of your own text here
-
+Using another measure, the Root Mean Squared Error (RMSE), we can say that on average the model's predictions differ from actual outcomes by $1 057 units.
 
 ## Limitations & Next Steps
 
-More of your own text here
+If we consider the difference between the Mean Squared Error (MSE) on the training data ($895 161) and that of the test data ($1 116 665), it may indicate that the model is overfit.
 
+Next steps could be exploring ways to get the model to generalize better, e.g. collecting more data, better feature selection, cross-validation, etc.
 
 ### For further information
 
-
-For any additional questions, please contact **email**
+For any additional questions, please contact **Shabana Patel**
