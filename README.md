@@ -1,3 +1,5 @@
+![prediction_of_product_sales](https://github.com/shabana1408/Prediction-of-Product-Sales/assets/138613948/4ad2d3f3-ff2b-4900-a19a-73b4e9b20201)
+
 # Prediction of Product Sales
 ## Sales prediction for food items sold at various stores
 
@@ -12,9 +14,10 @@ The goal of this project is to help the retailer understand the properties of pr
 There are 8 523 rows and 12 columns in the dataset.
 
 ### Data dictionary
+<img width="383" alt="dd_sales_predictions" src="https://github.com/shabana1408/Prediction-of-Product-Sales/assets/138613948/be96d30d-b6cf-4b35-a5b7-14cf42716e8c">
 
 ### Methods
-To prepare this data, the data was cleaned, duplicate entries were removed and the following processes were performed:
+To prepare the data, the data was cleaned, duplicate entries were removed and the following processes were performed:
 
 ## Exploratory Data Analysis
 EDA is performed to understand the main characteristics, patterns and relationships within a datset. 
@@ -25,11 +28,12 @@ Individual features in the dataset were considered to understand their distribut
 ## Results
 
 #### Outlet sales by outlet size
+![viz1_outlet_size](https://github.com/shabana1408/Prediction-of-Product-Sales/assets/138613948/3fa2b27f-39a3-4c4f-8416-ffa3066b72fd)
 
-
-> Medium sized outlets seems to generate higher sales in comparison to other oulets of other sizes.
+> Medium sized outlets seemed to generate higher sales in comparison to oulets of other sizes.
 
 #### Outlet sales by outlet type
+![viz1_outlet_type](https://github.com/shabana1408/Prediction-of-Product-Sales/assets/138613948/992d7863-8f55-433b-b551-68ae9e66cec4)
 
 > Supermarket Type 3 outlet types seem to generate higher sales in comparison to other outlet types.
 
@@ -44,7 +48,3 @@ Using another measure, the Root Mean Squared Error (RMSE), we can say that on av
 If we consider the difference between the Mean Squared Error (MSE) on the training data ($895 161) and that of the test data ($1 116 665), it may indicate that the model is overfit.
 
 Next steps could be exploring ways to get the model to generalize better, e.g. collecting more data, better feature selection, cross-validation, etc.
-
-### For further information
-
-For any additional questions, please contact **Shabana Patel**
